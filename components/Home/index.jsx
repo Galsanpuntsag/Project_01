@@ -15,6 +15,9 @@ function Home() {
       <li>
         <Link href="/Setup">Setup</Link>
       </li>
+      <li>
+        <Link href="/Louding">Louding</Link>
+      </li>
     </ul>
   );
 }

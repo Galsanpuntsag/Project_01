@@ -1,47 +1,23 @@
 import React from "react";
 import Link from "next/link";
+import SetupBalance from "@/components/SetupBalance";
+import SelCurrency from "@/components/SelCurrency";
+import SetupSucces from "@/components/SetupSucces";
 
-const Setup = () => {
+const SetupConfirm = () => {
   return (
-    <Link href={"../Setup"}>
-      <div className=" flex flex-col justify-center items-center">
-        <div className="flex flex-col mt-20 gap-10 mb-20">
-          <div className="flex gap-2">
-            <img src="Vector.png"></img>
-            <h className="text-5xl"> Geld</h>
-          </div>
-          <div className="">
-            <ul className="steps">
-              <li className="step step-primary">Currency</li>
-              <li className="step step-primary">Balance</li>
-              <li className="step">Finish</li>
-            </ul>
-          </div>
-        </div>
-        <div className="mt-10 gap-5 flex flex-col justify-center items-center">
-          <div className="">
-            <img className="bg-blue-700 rounded-full p-3" src="Coins.png"></img>
-          </div>
-          <div className="">
-            <h>Set up your cash Balance</h>
-          </div>
-          <div className="">
-            <input
-              type="text"
-              placeholder="Email"
-              className="input input-bordered input-secondary w-full max-w-2xl px-10"
-            />
-          </div>
-          <div className="">
-            <h1>How much cash do you have in your wallet?</h1>
-          </div>
-          <div className="">
-            <button className="btn btn-success w-full max-w-xs">Confirm</button>
-          </div>
-        </div>
-      </div>
-    </Link>
+    <div className="">
+      <Link href={"../Setup"}>
+        <SelCurrency />
+      </Link>
+      <Link href={"../Succes"}>
+        <SetupBalance />
+      </Link>
+      <Link href={"../Succes"}>
+        <SetupSucces />
+      </Link>
+    </div>
   );
 };
 
-export default Setup;
+export default SetupConfirm;

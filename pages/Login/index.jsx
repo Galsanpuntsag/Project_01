@@ -30,7 +30,7 @@ const Login = () => {
           </div>
           <div className="">
             <button className="btn btn-accent w-full max-w-xs px-10">
-              Login
+              <Link href={"../Louding"}>Login</Link>
             </button>
           </div>
           <div className="flex gap-4">
