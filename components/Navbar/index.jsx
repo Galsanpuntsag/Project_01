@@ -2,6 +2,7 @@ import React from "react";
 import { IoMdAdd } from "react-icons/io";
 import { FaArrowAltCircleUp } from "react-icons/fa";
 import { FaDotCircle } from "react-icons/fa";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -11,7 +12,10 @@ const Navbar = () => {
           <img src="Vector.png"></img>
           <div className="text-center items-center flex gap-10 ml-10">
             <h className="">Dashboard</h>
-            <h1 className="">Records</h1>
+            <Link href={"../Records"}>
+              {" "}
+              <h1 className="">Records</h1>
+            </Link>
           </div>
         </div>
         <div className="flex gap-5 items-center mr-20">
