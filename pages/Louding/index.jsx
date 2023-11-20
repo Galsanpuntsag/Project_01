@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const Loading = () => {
+const Louding = () => {
   return (
     <div className="bg-slate-100 w-full h-screen flex flex-col justify-center items-center gap-5">
       <div className="flex">
@@ -23,4 +23,4 @@ const Loading = () => {
   );
 };
 
-export default Loading;
+export default Louding;
