@@ -1,5 +1,5 @@
 import React from "react";
-import LastRecords from "./LastRecords";
+import RecordRange from "./RecordRange";
 
 const Figure = () => {
   return (
@@ -33,7 +33,7 @@ const Figure = () => {
           </div>
         </div>
       </div>
-      <LastRecords />
+      <RecordRange />
     </div>
   );
 };

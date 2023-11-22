@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { TiEye } from "react-icons/ti";
 import { IoMdArrowDropright } from "react-icons/io";
 import { CiSquarePlus } from "react-icons/ci";
-import { MdAdd } from "react-icons/md";
+
+import AddRecords from "@/components/AddRecord";
 
 const Category = () => {
   return (
@@ -12,10 +13,7 @@ const Category = () => {
         <div className="ml-10">
           <div className="flex flex-col gap-3 ">
             <h className="mt-5 text-2xl font-black">Records</h>
-            <button className="btn bg-cyan-400 w-full max-w-xs">
-              <MdAdd />
-              Add
-            </button>
+            <AddRecords />
             <input
               type="text"
               placeholder="Type here"

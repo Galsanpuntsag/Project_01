@@ -11,8 +11,10 @@ const Navbar = () => {
         <div className="flex ml-20 p-2">
           <img src="Vector.png"></img>
           <div className="text-center items-center flex gap-10 ml-10">
-            <h className="">Dashboard</h>
-            <Link href={"../Records"}>
+            <Link href={"../Dashboard"}>
+              <h className="">Dashboard</h>
+            </Link>
+            <Link href={"../Record"}>
               {" "}
               <h1 className="">Records</h1>
             </Link>

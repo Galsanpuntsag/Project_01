@@ -1,6 +1,6 @@
 import React from "react";
 
-const LastRecords = () => {
+const RecordRange = () => {
   return (
     <div className="flex justify-center mt-5">
       <div className="flex flex-col justify-center w-4/5">
@@ -25,4 +25,4 @@ const LastRecords = () => {
   );
 };
 
-export default LastRecords;
+export default RecordRange;
