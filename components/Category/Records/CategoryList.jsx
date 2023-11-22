@@ -1,11 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import { TiEye } from "react-icons/ti";
 import { IoMdArrowDropright } from "react-icons/io";
 import { CiSquarePlus } from "react-icons/ci";
-
 import AddRecords from "@/components/AddRecord";
 
-const Category = () => {
+const CategoryList = () => {
   return (
     <div>
       {" "}
@@ -78,4 +77,4 @@ const Category = () => {
   );
 };
 
-export default Category;
+export default CategoryList;

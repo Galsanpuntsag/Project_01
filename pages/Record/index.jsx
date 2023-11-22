@@ -1,11 +1,10 @@
 import React from "react";
-import Records from "@/components/Records";
-import CategoryList from "@/components/CategoryList";
+import Records from "@/components/Category/Records";
+
 const Record = () => {
   return (
     <div className="flex">
       <Records />
-      <CategoryList />
     </div>
   );
 };

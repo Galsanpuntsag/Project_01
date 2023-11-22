@@ -3,7 +3,7 @@ import React from "react";
 const RecordRange = () => {
   return (
     <div className="flex justify-center mt-5">
-      <div className="flex flex-col justify-center w-4/5">
+      <div className="flex flex-col justify-center w-full mx-20">
         <div className="">
           <h className="">Last Records</h>
           <div className="border-b-2 border-indigo-500 "></div>

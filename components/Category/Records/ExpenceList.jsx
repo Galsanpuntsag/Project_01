@@ -1,10 +1,11 @@
 import React from "react";
+
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
 
-const CategoryList = () => {
+const ExpenceList = () => {
   return (
-    <div className="flex flex-col justify-between w-3/5 bg-white ml-10 mt-8 rounded-xl">
+    <div className="flex flex-col justify-between w-4/5 bg-white ml-10 mt-8 rounded-xl">
       <div className="">
         <div className="flex justify-between mt-5">
           <div className="flex gap-3">
@@ -202,4 +203,4 @@ const CategoryList = () => {
   );
 };
 
-export default CategoryList;
+export default ExpenceList;

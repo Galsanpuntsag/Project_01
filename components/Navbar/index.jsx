@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="flex ml-20 p-2">
           <img src="Vector.png"></img>
           <div className="text-center items-center flex gap-10 ml-10">
-            <Link href={"../Dashboard"}>
+            <Link href={"/"}>
               <h className="">Dashboard</h>
             </Link>
             <Link href={"../Record"}>
@@ -23,7 +23,7 @@ const Navbar = () => {
         <div className="flex gap-5 items-center mr-20">
           <button className="btn btn-active btn-primary">
             <IoMdAdd />
-            Primary
+            Add Record
           </button>
           <div className="avatar">
             <div className="w-10 h-10 rounded-full ring ring-primary ring-offset-2">
