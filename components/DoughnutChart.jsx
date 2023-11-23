@@ -40,9 +40,11 @@ const DoughnutChart = () => {
 
   return (
     <div className="flex justify-center gap-20 my-30 w-full mr-20">
-      <div className="flex-1 h-[385px] p-10 bg-white ml-10 rounded-lg">
+      <div className="flex-1 lg:h-[370px] 2xl:h-[385px] bg-white ml-10 rounded-lg">
         <h1 className="border-b-2 pb-3 font-semibold mb-1">Income - Expense</h1>
-        <Doughnut data={data2} options={options2} />
+        <div className="py-10 lg:w-[300px] lg:h-[320px] ml-10 md:w-[270px]  ">
+          <Doughnut data={data2} options={options2} />
+        </div>
       </div>
     </div>
   );

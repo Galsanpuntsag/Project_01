@@ -1,8 +1,7 @@
 import React from "react";
 import { MdAdd } from "react-icons/md";
 
-import Add from "./Add";
-
+import AddForm from "./ctgryForm/AddForm";
 const AddRecords = () => {
   return (
     <div>
@@ -13,7 +12,7 @@ const AddRecords = () => {
         <MdAdd />
         Add
       </button>
-      <Add />
+      <AddForm />
     </div>
   );
 };

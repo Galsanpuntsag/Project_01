@@ -5,9 +5,9 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const ExpenceList = () => {
   return (
-    <div className="flex flex-col justify-between w-4/5 bg-white ml-10 mt-8 rounded-xl">
+    <div className="flex flex-col justify-between w-full mx-10 bg-white mt-4 2xl:mt-8 rounded-xl">
       <div className="">
-        <div className="flex justify-between mt-5">
+        <div className="flex justify-between mt-4">
           <div className="flex gap-3">
             <button className="w-5 h-5 bg-slate-400 rounded-md ml-5">
               <IoIosArrowBack />
@@ -46,82 +46,6 @@ const ExpenceList = () => {
             <div className="card w-full shadow-xl mt-10 ">
               <div className="card-body">
                 <h1 className="font-semibold "> Today</h1>
-              </div>
-              <div className="flex justify-between mb-5">
-                <div className="flex gap-5">
-                  <div className="ml-10">
-                    <div className="flex gap-20">
-                      <input type="checkbox" className="checkbox" disabled />
-                      <img
-                        src="House.png"
-                        className="bg-cyan-500 rounded-xl"
-                      ></img>
-                    </div>
-                  </div>
-                  <div className="flex flex-col">
-                    <h>Lending&Renting</h>
-                    <button>14:00</button>
-                  </div>
-                </div>
-                <button className="mr-10">-10000</button>
-              </div>
-              <div className="flex justify-between mb-5">
-                <div className="flex gap-5">
-                  <div className="ml-10">
-                    <div className="flex gap-20">
-                      <input type="checkbox" className="checkbox" disabled />
-                      <img
-                        src="House.png"
-                        className="bg-cyan-500 rounded-xl"
-                      ></img>
-                    </div>
-                  </div>
-                  <div className="flex flex-col">
-                    <h>Lending&Renting</h>
-                    <button>14:00</button>
-                  </div>
-                </div>
-                <button className="mr-10">-10000</button>
-              </div>
-              <div className="flex justify-between mb-5">
-                <div className="flex gap-5">
-                  <div className="ml-10">
-                    <div className="flex gap-20">
-                      <input type="checkbox" className="checkbox" disabled />
-                      <img
-                        src="House.png"
-                        className="bg-cyan-500 rounded-xl"
-                      ></img>
-                    </div>
-                  </div>
-                  <div className="flex flex-col">
-                    <h>Lending&Renting</h>
-                    <button>14:00</button>
-                  </div>
-                </div>
-                <button className="mr-10">-10000</button>
-              </div>
-              <div className="flex justify-between mb-5">
-                <div className="flex gap-5">
-                  <div className="ml-10">
-                    <div className="flex gap-20">
-                      <input type="checkbox" className="checkbox" disabled />
-                      <img
-                        src="House.png"
-                        className="bg-cyan-500 rounded-xl"
-                      ></img>
-                    </div>
-                  </div>
-                  <div className="flex flex-col">
-                    <h>Lending&Renting</h>
-                    <button>14:00</button>
-                  </div>
-                </div>
-                <button className="mr-10">-10000</button>
-              </div>
-
-              <div className="card-body">
-                <h1 className="font-semibold "> Yesterday</h1>
               </div>
               <div className="flex justify-between mb-5">
                 <div className="flex gap-5">

@@ -6,12 +6,11 @@ import ExpenceList from "./ExpenceList";
 
 const Records = () => {
   return (
-    <div div className="flex w-full mt-10">
-      <div className="">
+    <div div className="flex flex-col md:flex-row w-full mt-10 justify-center">
+      <div className="ml-10">
         <CategoryList />
-        <AmountRange />
       </div>
-      <div className="flex w-full">
+      <div className="w-full flex justify-center">
         <ExpenceList />
       </div>
     </div>
