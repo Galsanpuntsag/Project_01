@@ -1,7 +1,7 @@
 import React from "react";
 import { MdAdd } from "react-icons/md";
 
-import AddForm from "./ctgryForm/AddForm";
+import AddForm from "./ctgryForm/Modal";
 const AddRecords = () => {
   return (
     <div>

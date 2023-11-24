@@ -1,6 +1,7 @@
 import React from "react";
 
 const Income = () => {
+  const handleChange = (e) => {};
   return (
     <div>
       <div className="">

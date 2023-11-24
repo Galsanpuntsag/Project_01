@@ -1,13 +1,14 @@
 import React from "react";
+import PayNote from "./PayNote";
+import Income from "./Income";
 
-const ChooseCategory = () => {
-  const handleChange = (e) => {
-    e.target.value;
-  };
+const Expence = (showExpense, setShowExpence, setShowIncome, showIncome) => {
+  const handleChange = (e) => {};
+
   return (
     <div>
       <div className="flex flex-col">
-        <div className="bg-slate-50 mt-5 p-1 mt-3 w-full max-w-xs lg:max-w-[280px] rounded-xl 2xl:max-w-sm">
+        <div className="bg-slate-50 2xl:mt-5 p-1 mt-3 w-full max-w-xs lg:max-w-[280px] rounded-xl 2xl:max-w-sm">
           <button className="btn btn-sm btn-primary w-1/2">Expence</button>
           <button className="btn btn-sm hover:btn-primary w-1/2">Income</button>
         </div>
@@ -73,8 +74,9 @@ const ChooseCategory = () => {
           Add
         </button>
       </div>
+      <PayNote />
     </div>
   );
 };
 
-export default ChooseCategory;
+export default Expence;

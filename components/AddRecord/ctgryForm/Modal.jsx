@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 
-import PayNote from "./PayNote";
-import ChooseCategory from "./Expence";
+import Expence from "./Expence";
+import Income from "./Income";
 
 const AddForm = () => {
+  const [showExpense, setShowExpence] = useState("");
+  const [showIncome, setShowIncome] = "hidden";
   return (
     <div>
       <dialog id="my_modal_4" className="modal">
@@ -21,9 +23,19 @@ const AddForm = () => {
                 </div>
                 <div className="border-b-2 border-rey-700 "></div>
               </div>
-              <div className="grid grid-rows-2 lg:flex  ">
-                <ChooseCategory />
-                <PayNote />
+              <div className="">
+                <Expence
+                  showExpense={showExpense}
+                  setShowExpence={setShowExpence}
+                  showIncome={showIncome}
+                  setShowIncome={setShowIncome}
+                />
+                <Income
+                  showExpense={showExpense}
+                  setShowExpence={setShowExpence}
+                  showIncome={showIncome}
+                  setShowIncome={setShowIncome}
+                />
               </div>
             </div>
           </div>
