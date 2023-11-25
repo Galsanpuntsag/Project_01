@@ -12,7 +12,7 @@ const CategoryList = () => {
   return (
     <div className="">
       {" "}
-      <div className="artboard phone-2 2xl:phone-3 bg-white 2xl:mt-8 rounded-xl 2xl:ml-40 flex flex-col justify-between">
+      <div className="artboard phone-3 2xl:phone-5 bg-white 2xl:mt-8 rounded-xl 2xl:ml-40 flex flex-col justify-between ">
         <div className="mx-10">
           <div className="">
             <div className="flex flex-col gap-3 ">
@@ -49,7 +49,7 @@ const CategoryList = () => {
                 <button className="text-slate-200">Clear</button>
               </div>
             </div>
-            <div className="">
+            <div className="flex flex-col">
               <div className="flex flex-col justify-around">
                 {array.map((el) => {
                   return (
@@ -61,12 +61,11 @@ const CategoryList = () => {
                   );
                 })}
               </div>
-              <div className="flex gap-5  mt-3"></div>
+              <div className="">
+                <AmountRange />
+              </div>
             </div>
           </div>
-        </div>
-        <div className="mb-3">
-          <AmountRange />
         </div>
       </div>
     </div>

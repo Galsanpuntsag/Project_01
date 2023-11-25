@@ -1,7 +1,10 @@
 import React from "react";
 
-const Income = () => {
-  const handleChange = (e) => {};
+const Income = (showExpense, setShowExpence, setShowIncome, showIncome) => {
+  const handleChange = (e) => {
+    showExpense("hidden");
+    set;
+  };
   return (
     <div>
       <div className="">

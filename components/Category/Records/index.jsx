@@ -2,7 +2,7 @@ import React from "react";
 import CategoryList from "./CategoryList";
 
 import AmountRange from "./AmountRange";
-import ExpenceList from "./ExpenceList";
+import ExpenceList from "./ExpenceList/RightList";
 
 const Records = () => {
   return (
@@ -10,7 +10,7 @@ const Records = () => {
       <div className="ml-10">
         <CategoryList />
       </div>
-      <div className="w-full flex justify-center">
+      <div className="w-10/12 flex justify-center">
         <ExpenceList />
       </div>
     </div>

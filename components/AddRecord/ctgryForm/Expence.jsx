@@ -74,7 +74,6 @@ const Expence = (showExpense, setShowExpence, setShowIncome, showIncome) => {
           Add
         </button>
       </div>
-      <PayNote />
     </div>
   );
 };

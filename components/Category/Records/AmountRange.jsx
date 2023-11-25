@@ -2,8 +2,8 @@ import React from "react";
 
 const AmountRange = () => {
   return (
-    <div className="card w-[418px] bg-white ml-40">
-      <div className="flex  flex-col justify-end  gap-5 ml-10 mt-3">
+    <div className="card bg-white mt5">
+      <div className="flex  flex-col gap-5 mt-5">
         <h className="">Amount Range</h>
         <div className="flex gap-5">
           <input
