@@ -5,19 +5,26 @@ import { IoMdArrowDropright } from "react-icons/io";
 import { array } from "@/components/Data/index.jsx";
 import { types } from "@/components/Data/index.jsx";
 
-import AddRecords from "@/components/AddRecord";
 import AmountRange from "./AmountRange";
+import Modal from "@/components/ModalForm/ctgryForm/Modal";
 
-const CategoryList = () => {
+const LeftCategory = () => {
   return (
     <div className="">
       {" "}
-      <div className="artboard phone-3 2xl:phone-5 bg-white 2xl:mt-8 rounded-xl 2xl:ml-40 flex flex-col justify-between ">
+      <div className="artboard phone-4 2xl:phone-5 bg-white 2xl:mt-8 rounded-xl 2xl:ml-40 flex flex-col justify-between ">
         <div className="mx-10">
           <div className="">
             <div className="flex flex-col gap-3 ">
               <h className="mt-5 text-2xl font-black">Records</h>
-              <AddRecords />
+              <button
+                className="btn"
+                onClick={() =>
+                  document.getElementById("my_modal_3").showModal()
+                }
+              >
+                open modal
+              </button>
               <input
                 type="text"
                 placeholder="Type here"
@@ -61,15 +68,17 @@ const CategoryList = () => {
                   );
                 })}
               </div>
+
               <div className="">
                 <AmountRange />
               </div>
             </div>
           </div>
         </div>
+        <Modal />
       </div>
     </div>
   );
 };
 
-export default CategoryList;
+export default LeftCategory;

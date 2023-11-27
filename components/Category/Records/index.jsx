@@ -1,17 +1,15 @@
 import React from "react";
-import CategoryList from "./CategoryList";
-
-import AmountRange from "./AmountRange";
-import ExpenceList from "./ExpenceList/RightList";
+import LeftCategory from "./LeftCategory";
+import RightRecord from "./RightRecords";
 
 const Records = () => {
   return (
     <div div className="flex flex-col md:flex-row w-full mt-10 justify-center">
       <div className="ml-10">
-        <CategoryList />
+        <LeftCategory />
       </div>
       <div className="w-10/12 flex justify-center">
-        <ExpenceList />
+        <RightRecord />
       </div>
     </div>
   );

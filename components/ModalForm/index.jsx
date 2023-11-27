@@ -2,7 +2,7 @@ import React from "react";
 import { MdAdd } from "react-icons/md";
 
 import AddForm from "./ctgryForm/Modal";
-const AddRecords = () => {
+const ModalForm = () => {
   return (
     <div>
       <button
@@ -17,4 +17,4 @@ const AddRecords = () => {
   );
 };
 
-export default AddRecords;
+export default ModalForm;
